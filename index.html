@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <title>Calculator</title>
+</head>
+<body>
+   
+ <div class="main">
+    <input id="data" class="answer" type="number" placeholder="000000000000000"disabled>   
+<div class="buttons">
+<button class="btn" onclick="getInput()">1</button>
+<button class="btn" onclick="getInput()">2</button>
+<button class="btn" onclick="getInput()">3</button>
+<button class="btn" onclick="getInput()">4</button>
+<button class="btn" onclick="getInput()">5</button>
+<button class="btn" onclick="getInput()">6</button>
+<button class="btn" onclick="getInput()">7</button>
+<button class="btn" onclick="getInput()">8</button>
+<button class="btn" onclick="getInput()">9</button>
+<button class="btn" onclick="getInput()">*</button>
+<button class="btn" onclick="getInput()">/</button>
+<button class="btn" onclick="getInput()">+</button>
+<button class="btn" onclick="getInput()">%</button>
+<button class="btn" onclick="getInput()">.</button>
+<button class="btn" onclick="getInput()">Clr</button>
+</div>
+</div>
+
+<script src="calc.js"></script>
+<script>
+    function clr() 
+         { 
+             document.getElementById("answer").value = "" 
+         } 
+
+</script>
+
+
+</body>
+</html>

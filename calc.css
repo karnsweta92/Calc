@@ -1,0 +1,32 @@
+
+.main{
+    background-color: #4d4d4d;
+   margin:auto;
+  width: 363px;
+  padding: 20px;
+
+}
+.answer{
+    background: white;
+    width: 330px;
+    height: 30px;
+    padding-left:26px;
+    font-weight: 600;
+    font-size:larger
+}
+.buttons {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+ 
+  grid-row-gap: 20px;
+  padding: 10px;
+}
+.btn {
+  background-color: rgba(236, 230, 230, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
