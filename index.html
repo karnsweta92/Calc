@@ -9,25 +9,37 @@
 <body>
    
  <div class="main">
-    <input id="data" class="answer" type="number" placeholder="000000000000000"disabled>   
+    <div id="data" class="answer" >0</div>   
 <div class="buttons">
-<button class="btn" onclick="getInput()">1</button>
-<button class="btn" onclick="getInput()">2</button>
-<button class="btn" onclick="getInput()">3</button>
-<button class="btn" onclick="getInput()">4</button>
-<button class="btn" onclick="getInput()">5</button>
-<button class="btn" onclick="getInput()">6</button>
-<button class="btn" onclick="getInput()">7</button>
-<button class="btn" onclick="getInput()">8</button>
-<button class="btn" onclick="getInput()">9</button>
-<button class="btn" onclick="getInput()">*</button>
-<button class="btn" onclick="getInput()">/</button>
-<button class="btn" onclick="getInput()">+</button>
-<button class="btn" onclick="getInput()">%</button>
-<button class="btn" onclick="getInput()">.</button>
-<button class="btn" onclick="getInput()">Clr</button>
+<button class="btn" id="number1" ">1</button>
+<button class="btn" ">2</button>
+<button class="btn" ">3</button>
+<button class="btn" ">4</button>
+<button class="btn" ">5</button>
+<button class="btn" ">6</button>
+<button class="btn" ">7</button>
+<button class="btn" ">8</button>
+<button class="btn" ">9</button>
+<button class="btn" ">0</button>
+<button class="operator" id="min" ">-</button>
+<button class="operator" id="mul" ">*</button>
+<button class="operator" id="div" ">/</button>
+<button class="operator" id="add" ">+</button>
+<button class="operator" id="per" ">%</button>
+<button class="operator" id="dec" ">.</button>
+<button class="operator" id="sqrt" ">√</button>
+<button class="operator" id="clear" ">Clr</button>
 </div>
+
+<div class="extra" id="ans">
+    <button class="result_op" id="clear" ">=</button> 
+    <button class="result_op" id="clear" ">x</button> 
 </div>
+
+</div>
+
+
+
 
 <script src="calc.js"></script>
 <script>
