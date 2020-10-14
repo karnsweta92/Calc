@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="calc.css">
     <title>Calculator</title>
@@ -9,46 +9,34 @@
 <body>
    
  <div class="main">
-    <div id="data" class="answer" >0</div>   
+<div>
+    <input id="display" type="text" readonly ></div>   
 <div class="buttons">
-<button class="btn" id="number1" ">1</button>
-<button class="btn" ">2</button>
-<button class="btn" ">3</button>
-<button class="btn" ">4</button>
-<button class="btn" ">5</button>
-<button class="btn" ">6</button>
-<button class="btn" ">7</button>
-<button class="btn" ">8</button>
-<button class="btn" ">9</button>
-<button class="btn" ">0</button>
-<button class="operator" id="min" ">-</button>
-<button class="operator" id="mul" ">*</button>
-<button class="operator" id="div" ">/</button>
-<button class="operator" id="add" ">+</button>
-<button class="operator" id="per" ">%</button>
-<button class="operator" id="dec" ">.</button>
-<button class="operator" id="sqrt" ">√</button>
-<button class="operator" id="clear" ">Clr</button>
+<button class="btn" value="1" >1</button>
+<button class="btn" value="2" >2</button>
+<button class="btn" value="3">3</button>
+<button class="btn" value="4" >4</button>
+<button class="btn" value="5" >5</button>
+<button class="btn" >6</button>
+<button class="btn" >7</button>
+<button class="btn" >8</button>
+<button class="btn" >9</button>
+<button class="btn" >0</button>
+<button class="btn"  >-</button>
+<button class="btn"  >*</button>
+<button class="btn"  >/</button>
+<button class="btn"  >+</button>
+<button class="extra" id="solve" >=</button>
+<button class="btn"  >.</button>
+<button class="btn"  >√</button>
+<button  id="clear"  >Clr</button>
 </div>
-
-<div class="extra" id="ans">
-    <button class="result_op" id="clear" ">=</button> 
-    <button class="result_op" id="clear" ">x</button> 
-</div>
-
 </div>
 
 
 
 
 <script src="calc.js"></script>
-<script>
-    function clr() 
-         { 
-             document.getElementById("answer").value = "" 
-         } 
-
-</script>
 
 
 </body>

@@ -6,7 +6,7 @@
   padding: 20px;
 
 }
-.answer{
+#display{
     background: white;
     width: 330px;
     height: 30px;
@@ -34,16 +34,16 @@
   font-size: 30px;
   text-align: center;
 }
-.operator{
+/* .operator{
   background-color: rgba(236, 230, 230, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   font-size: 30px;
   text-align: center;
 
-}
+} */
 
-.extra{
+/* .extra{
   display: grid;
   grid-template-columns:auto auto;
   grid-template-rows: auto auto;
@@ -53,11 +53,11 @@
   height: 130px;
   
   
-}
-.result_op{
+} */
+/* .result_op{
   background-color: rgba(236, 230, 230, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   font-size: 30px;
   text-align: center;
-}
+} */

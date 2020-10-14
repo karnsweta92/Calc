@@ -1,33 +1,23 @@
-var inp1;
-var ans;
-var operation;
+function clr() {
+  document.getElementById("display").value = "";
+}
 
-var buttons=document.querySelector(".buttons");
+function solve() {
+  var value1 = document.getElementById("display").value;
+  let res = eval(value1);
+  document.getElementById("display").value = res;
+}
 
-buttons.addEventListener("click",function (e){
-    var key=e.target.textContent;
-    
-    console.log("Button pressed: "+ key );
-    var ans= document.getElementById("data")
-    console.log(ans);
-    ans.textContent=key;
-    
+const buttons = document.querySelectorAll(".btn");
+var ans = document.getElementById("display");
+buttons.forEach((btns) => {
+  btns.addEventListener("click", function (e) {
+    console.log(document.getElementById("display").value);
+    let key = e.target.textContent;
+    document.getElementById("display").value += key;
+    console.log(document.getElementById("display").value);
+  });
+});
 
-} );
-function clr() 
-         { 
-             document.getElementById("answer").value = "" 
-         } 
-
-function add()
-{
-             inp1=document.querySelector(".btn").addEventListener("click",displayData );
-             if (ans!==0)
-             {
-             ans=ans+imp1;
-             }
-             else{
-                document.querySelector(".btn").addEventListener("click",displayData );
-             }
-         }
-
+document.getElementById("clear").addEventListener("click", clr);
+document.getElementById("solve").addEventListener("click", solve);
